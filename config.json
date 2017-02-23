@@ -1,0 +1,33 @@
+{
+	"site_name": "site name",
+	"author": "site author",
+	"description": "site description",
+
+	"page_all": {
+		"page_title": "page all components",
+		"page_desc": "this page has all components of site."
+	},
+	"page_top": {
+		"page_title": "page top",
+		"page_desc": "this is page top"
+	},
+
+	"component_about": {
+		"title": "About",
+		"subtitle": "Looks like you’ve done this kind of thing before.",
+		"title_h2": [
+			"Me",
+			"What we can do"
+		],
+		"text": [
+			"My grandpa has been telling me stories about seaplane pilots ever since I was born.He always says that seaplane pilots are the most honorable and trustworthy fighters in the world.Every time they fly, both the ocean and the sky purify their hearts.So they’re braver than any pilot in the sky, and they are mightier than any sailor in the sea.",
+			"Yeah, it’s not nice to separate them from their friends."
+		]
+	},
+
+	"component_fellow": {
+		"title": "Fellow",
+		"subtitle": "Our Friends. Let's Join Us!",
+		"text": "Well, you know, it’s a great place, <br>except for the ugly photograph you keep hanging on the wall up there."
+	}
+}

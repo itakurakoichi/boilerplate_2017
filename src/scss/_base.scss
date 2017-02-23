@@ -1,0 +1,55 @@
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	color: $color_text;
+	font-size: $font_size_regular;
+	line-height: 1;
+	overflow-x: hidden;
+}
+
+// .page_top {
+// }
+// .page_blog {
+// 	background: #f9f9f9;
+// }
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+	display: block;
+}
+
+body, input, select, textarea {
+	font-family: '游ゴシック', YuGothic, Helvetica, Arial, Meiryo, 'ヒラギノ角ゴシック', 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+button, input, select, textarea {
+	margin: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+textarea {
+	vertical-align: top;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	color: $color_text_link;
+	text-decoration: none;
+	&:visited {
+		color: $color_text;
+	}
+	img {
+		&:hover {
+			opacity: .8;
+			backface-visibility: hidden;
+		}
+	}
+}

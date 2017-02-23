@@ -1,0 +1,21 @@
+<!-- Setting Variable -->
+<%
+	var rootRelativePath = '../'
+	var isPageTop = true
+%>
+<!-- Start Page -->
+<%- include('common/_head', {page: 'page_top'}) %>
+<%- include common/_lib %>
+<link rel="stylesheet" href="<%= rootRelativePath %>css/all/style.css" media="all">
+</head>
+<body class="">
+<%- include common/_gheader %>
+<%- include common/_header %>
+<main>
+<%- include common/component/_hero %>
+</main>
+<%- include common/component/_sub %>
+<%- include common/_backtotop %>
+<%- include common/_footer %>
+</body>
+</html>

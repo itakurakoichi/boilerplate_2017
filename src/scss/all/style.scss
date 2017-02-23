@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+// #Settings
+@import "../_reset";
+@import "../_variable";
+@import "../_base";
+
+//
+@import "../common/_layout";
+@import "../common/_gheader";
+@import "../common/_header";
+@import "../common/_footer";
+@import "../common/_button";
+
+// #Structure
+@import "../common/_section";
+
+// #Module
+// ページ内で使われる部品、それだけではページコンテンツとしては成り立たない
+@import "../common/module/_backtotop";
+@import "../common/module/_sns";
+
+// #Component
+// ページの構成要素、ページコンテンツの一部、それだけではページは成り立たない
+@import "../common/component/_hero";
+@import "../common/component/_sub";
+@import "../common/component/_recent_post";
+
+// #This Page
+@import "_layout";
+@import "_module";

@@ -1,0 +1,20 @@
+.l-backtotop {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+
+.backtotop {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background: #333;
+	&-icon {
+		margin-top: -4px;
+		font-size: 20px;
+		color: #fff;
+	}
+}

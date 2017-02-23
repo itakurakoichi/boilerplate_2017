@@ -1,0 +1,44 @@
+.l-header {
+	position: absolute;
+	width: 100%;
+	background: rgba(255,255,255,.9);
+	box-shadow: 0 8px 8px rgba(0,0,0,.2);
+}
+.header {
+	display: flex;
+	align-items: center;
+	max-width: 900px;
+	height: 60px;
+	margin: 0 auto;
+	&-title {
+		letter-spacing: .2rem;
+		font-size: 22px;
+		font-weight: bold;
+	}
+	&-text {
+		display: flex;
+		align-items: center;
+		margin-left: 10px;
+		&:before {
+			content: "・";
+			font-size: 20px;
+		}
+	}
+	&-nav {
+		display: flex;
+		align-items: center;
+		flex: 1;
+		margin-left: 50px;
+		li {
+			margin-left: 30px;
+			&:first-child {
+				margin-left: 0;
+			}
+			&:last-child {
+				width: 100px;
+				margin-left: auto;
+			}
+		}
+
+	}
+}

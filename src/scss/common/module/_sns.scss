@@ -1,0 +1,33 @@
+.l-sns {
+	display: flex;
+	align-items: center;
+	&.l-sns--variation {
+		justify-content: center;
+	}
+	li {
+		+li {
+			margin-left: 15px;
+		}
+	}
+}
+
+.sns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	$size: 45px;
+	width: $size;
+	height: $size;
+	border-radius: 50%;
+	background: $color_site_keycolor__dark;
+	transition: all $animation_time_regular;
+
+	&:hover {
+		background: darken($color_site_keycolor__dark, 10%);
+	}
+
+	i {
+		font-size: 25px;
+		color: #fff;
+	}
+}
