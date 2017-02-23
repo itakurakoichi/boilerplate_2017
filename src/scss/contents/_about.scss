@@ -1,0 +1,147 @@
+.l-about {
+	margin-top: 120px;
+	&.l-about--h2 {
+		margin-top: 0;
+		+ .l-about--h2 {
+			margin-top: 120px;
+		}
+	}
+}
+.about {
+	max-width: 1400px;
+	margin: 0 auto;
+	&-header {
+	}
+	&-title {
+		margin-top: 30px;
+		text-align: center;
+		h1 {
+			line-height: $line_height_xsmall;
+			font-size: 40px;
+			font-weight: bold;
+			color: $color_site_keycolor;
+		}
+	}
+	&-body {
+		margin: 50px auto 0;
+	}
+	&-text {
+		margin: 25px 15rem 0;
+		line-height: $line_height_regular;
+		font-size: $font_size_medium;
+		text-align: center;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	//
+	&.about--h2 {
+		margin: 0;
+		.about-header {
+		}
+		.about-title {
+			text-align: center;
+			h2 {
+				line-height: $line_height_xsmall;
+				font-size: 28px;
+				font-weight: bold;
+				color: $color_site_keycolor__dark;
+			}
+		}
+		.about-body {
+			margin-top: 20px;
+		}
+		.about-text {
+			margin: 0 12rem;
+		}
+		//
+		&.about--h2_variation {
+			.about-header {
+			}
+			.about-title {
+				text-align: left;
+			}
+			.about-body {
+			}
+			.about-text {
+				margin: 25px 0 0;
+				text-align: left;
+			}
+		}
+	}
+}
+.about_sns {
+	margin-top: 50px;
+}
+
+.l-prof {
+}
+.prof {
+	&-header {
+	}
+	&-object {
+		text-align: center;
+		i {
+			font-size: 200px;
+		}
+	}
+	&-title {
+		margin-top: 30px;
+		font-size: $font_size_large;
+		text-align: center;
+	}
+	&-body {
+		margin-top: 10px;
+	}
+	&-text {
+		line-height: $line_height_regular;
+		text-align: center;
+	}
+}
+
+.l-concern_list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 80px;
+	li {
+		// $flexItemMargin: 80px;
+		flex-basis: calc((100% - 80px)/3);
+		margin-left: 40px;
+		&:nth-child(n+4) {
+			margin-top: 40px;
+		}
+		&:nth-child(3n-2) {
+			margin-left: 0;
+		}
+	}
+}
+.concern_list {
+	display: flex;
+	&-object {
+		width: 80px;
+		display: flex;
+		justify-content: center;
+		margin-right: 20px;
+		i {
+			font-size: 40px;
+		}
+	}
+	&-contents {
+		flex: 1;
+	}
+	&-title {
+		line-height: $line_height_small;
+		font-size: $font_size_large;
+		span {
+			margin-left: 10px;
+			font-size: $font_size_small;
+		}
+	}
+	&-body {
+		margin-top: 15px;
+	}
+	&-text {
+		line-height: $line_height_small;
+		font-size: $font_size_regular;
+	}
+}

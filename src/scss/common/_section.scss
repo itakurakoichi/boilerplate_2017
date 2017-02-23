@@ -1,0 +1,103 @@
+.l-section {
+	margin-top: 80px;
+	+ .l-section {
+		margin-top: 150px;
+	}
+	&.l-section--variation {
+		padding: 7rem 0;
+		background: $color_site_background__gray;
+	}
+	&.l-section--h2 {
+		margin-top: 0;
+		+ .l-section--h2 {
+			margin-top: 120px;
+		}
+	}
+	&.l-section--h3 {
+	}
+}
+.section {
+	max-width: 1400px;
+	margin: 0 auto;
+
+	&--variation {
+		//これでよいか？
+		width: 1200px;
+	}
+	&-header {
+	}
+	&-title {
+		text-align: center;
+		h1 {
+			line-height: $line_height_xsmall;
+			font-size: 40px;
+			font-weight: bold;
+			color: $color_site_keycolor;
+		}
+	}
+	&-subtitle {
+		margin-top: 10px;
+		p {
+			line-height: $line_height_xsmall;
+			text-align: center;
+			font-weight: bold;
+			font-size: $font_size_large;
+			color: #111;
+			font-style: italic;
+			font-family: "Archer SSm A", "Archer SSm B", serif;
+		}
+	}
+	&-body {
+		margin: 50px auto 0;
+	}
+	&-object {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	&-text {
+		margin: 25px 15rem;
+		line-height: $line_height_large;
+		font-size: $font_size_medium;
+		text-align: center;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	&-footer {
+		margin-top: 50px;
+	}
+	&-btn {
+		width: 300px;
+		margin: 0 auto;
+	}
+	//
+	&.section--h2 {
+		margin: 0;
+		.section-header {
+		}
+		.section-title {
+			text-align: center;
+			h2 {
+				line-height: $line_height_xsmall;
+				font-size: 28px;
+				font-weight: bold;
+				color: $color_site_keycolor__dark;
+			}
+		}
+		.section-body {
+			margin-top: 20px;
+		}
+		.section-text {
+			margin: 0 12rem;
+		}
+	}
+	//
+	&.section--h3 {
+		.section-header {
+		}
+		.section-body {
+		}
+		.section-text {
+		}
+	}
+}

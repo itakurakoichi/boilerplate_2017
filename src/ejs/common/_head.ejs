@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="ja" xmlns:fb="https://www.facebook.com/2008/fbml">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta name="theme-color" content="#000">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="keywords" content="">
+<%
+	if (page == 'page_all') {
+%>
+<meta name="description" content="<%= jsonData.page_all.page_desc %>">
+<title><%= jsonData.page_all.page_title %></title>
+<%
+	} else if (page == 'page_top') {
+%>
+<meta name="description" content="<%= jsonData.page_top.page_desc %>">
+<title><%= jsonData.page_top.page_title %></title>
+<%
+	} else if (page == 'page_about') {
+%>
+<meta name="description" content="<%= jsonData.page_about.page_desc %>">
+<title><%= jsonData.page_about.page_title %></title>
+<%
+	} else if (page == 'page_faq') {
+%>
+<meta name="description" content="<%= jsonData.page_faq.page_desc %>">
+<title><%= jsonData.page_faq.page_title %></title>
+<%
+	} else {
+%>
+<meta name="description" content="null...">
+<title>null...</title>
+<%
+	}
+%>

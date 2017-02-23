@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*
+ * Color
+	# Color List
+	black: #333;
+	blue: #4285f4;
+	light_blue: #50c6db;
+	red: #db4437;          // ggl
+	red: #e42a4b;          // boncoura red
+	green: #2b9417;        // bmd
+	gray: #888;
+ */
+
+// Site Theme Color
+$color_site_keycolor: #202020;
+$color_site_keycolor__dark: #333;
+$color_site_background__gray: #f6f6f6;
+
+// Module Color
+$color_primary_button: #2b9417;
+$color_primary_button_variation: #4285f4;
+$color_action_button: #db4437;
+
+$color_border__gray: #e0e0e0;
+
+// Text Color
+$color_text: #333;
+$color_text_note: #888;
+$color_text_link: #4285f4;
+
+
+/*
+ * Font Size
+ */
+$font_size_xxlarge: 24px;
+$font_size_xlarge:  22px;
+$font_size_large:   20px;
+$font_size_medium:  18px;
+$font_size_regular: 16px;
+$font_size_small:   14px;
+$font_size_xsmall:  13px;
+$font_size_xxsmall: 12px;
+
+// $font_size_300per: 60px;
+// $font_size_per: 60px;
+// $font_size_200per: 40px;
+// $font_size_150per: 30px;
+// $font_size_50per:  10px;
+
+/*
+ * Line Height
+ */
+$line_height_large: 2.0;
+$line_height_medium: 1.8;
+$line_height_regular: 1.6;
+$line_height_small: 1.4;
+$line_height_xsmall: 1.3;
+$line_height_xxsmall: 1.2;
+
+/*
+ * Animation
+ */
+$animation_time_regular: .3s
