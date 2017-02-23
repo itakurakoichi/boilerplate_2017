@@ -37,7 +37,6 @@ gulp.task 'html', ->
 	gulp.src([
 			path.ejs + '**/*.ejs'
 			'!' + path.ejs + 'common/**/*.ejs'
-			'!' + path.ejs + 'contents/**/*.ejs'
 		])
 		.pipe(plumberWithNotify())
 		.pipe(ejs(

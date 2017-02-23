@@ -1,28 +1,3 @@
-.gheader {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 70px;
-	background: $color_site_keycolor;
-	&-title {
-	}
-	&-logo {
-	}
-	&-nav {
-		$margin: 100px;
-		margin-right: $margin;
-		i {
-			font-size: 30px;
-			color: #fff;
-		}
-		&--variation {
-			margin-left: $margin;
-			margin-right: 0;
-		}
-	}
-}
-
-//
 .l-header {
 	position: absolute;
 	width: 100%;

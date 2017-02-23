@@ -7,6 +7,7 @@
 
 //
 @import "../common/_layout";
+@import "../common/_gheader";
 @import "../common/_header";
 @import "../common/_footer";
 @import "../common/_button";
@@ -24,14 +25,6 @@
 @import "../common/component/_hero";
 @import "../common/component/_sub";
 @import "../common/component/_recent_post";
-
-// #Contents
-// ページのコンテンツ、それだけでも意味を為す（コンテンツである）、ページとして成り立つ（というかもはやページのスタイル？）
-@import "../contents/_top";
-@import "../contents/_about";
-@import "../contents/_fellow";
-@import "../contents/_activity";
-
 
 // #This Page
 @import "_layout";
